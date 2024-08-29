@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\source\\repos\\JobPortal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|c:\\users\\asus\\source\\repos\\jobportal\\jobportal\\usercrud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\usercrud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|c:\\users\\asus\\source\\repos\\jobportal\\jobportal\\user_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\user_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|C:\\Users\\ASUS\\source\\repos\\JobPortal\\jobportal\\usercrud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\usercrud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|c:\\users\\asus\\source\\repos\\jobportal\\jobportal\\application_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\application_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|c:\\users\\asus\\source\\repos\\jobportal\\jobportal\\application_crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\application_crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,27 +31,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserCrud.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\JobPortal\\JobPortal\\UserCrud.aspx.cs",
-              "RelativeDocumentMoniker": "JobPortal\\UserCrud.aspx.cs",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\JobPortal\\JobPortal\\UserCrud.aspx.cs",
-              "RelativeToolTip": "JobPortal\\UserCrud.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Title": "User_Crud.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\JobPortal\\JobPortal\\User_Crud.aspx.cs",
+              "RelativeDocumentMoniker": "JobPortal\\User_Crud.aspx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\JobPortal\\JobPortal\\User_Crud.aspx.cs",
+              "RelativeToolTip": "JobPortal\\User_Crud.aspx.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAswKYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-10T08:57:56.124Z",
+              "WhenOpened": "2024-08-29T15:31:17.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Application_Crud.aspx",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\JobPortal\\JobPortal\\Application_Crud.aspx",
+              "RelativeDocumentMoniker": "JobPortal\\Application_Crud.aspx",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\JobPortal\\JobPortal\\Application_Crud.aspx",
+              "RelativeToolTip": "JobPortal\\Application_Crud.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-08-29T15:17:45.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserCrud.aspx",
-              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\JobPortal\\JobPortal\\UserCrud.aspx",
-              "RelativeDocumentMoniker": "JobPortal\\UserCrud.aspx",
-              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\JobPortal\\JobPortal\\UserCrud.aspx",
-              "RelativeToolTip": "JobPortal\\UserCrud.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-10T08:55:43.364Z"
+              "Title": "Application_Crud.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\source\\repos\\JobPortal\\JobPortal\\Application_Crud.aspx.cs",
+              "RelativeDocumentMoniker": "JobPortal\\Application_Crud.aspx.cs",
+              "ToolTip": "C:\\Users\\ASUS\\source\\repos\\JobPortal\\JobPortal\\Application_Crud.aspx.cs",
+              "RelativeToolTip": "JobPortal\\Application_Crud.aspx.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAIwGQAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T15:17:40.69Z",
+              "EditorCaption": ""
             }
           ]
         }
