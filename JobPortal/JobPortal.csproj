@@ -72,6 +72,10 @@
     <Content Include="App_Data\DBJobPortal_log.ldf">
       <DependentUpon>DBJobPortal.mdf</DependentUpon>
     </Content>
+    <Content Include="Companies_Crud.aspx" />
+    <Content Include="Jobs_Crud.aspx" />
+    <Content Include="Job_skills_Crud.aspx" />
+    <Content Include="Resumes.aspx" />
     <Content Include="Skills_Crud.aspx" />
     <Content Include="User_Crud.aspx" />
     <Content Include="User_Skills_Crud.aspx" />
@@ -85,7 +89,35 @@
     <Compile Include="Application_Crud.aspx.designer.cs">
       <DependentUpon>Application_Crud.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Companies_Crud.aspx.cs">
+      <DependentUpon>Companies_Crud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Companies_Crud.aspx.designer.cs">
+      <DependentUpon>Companies_Crud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobs_Crud.aspx.cs">
+      <DependentUpon>Jobs_Crud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobs_Crud.aspx.designer.cs">
+      <DependentUpon>Jobs_Crud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Job_skills_Crud.aspx.cs">
+      <DependentUpon>Job_skills_Crud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Job_skills_Crud.aspx.designer.cs">
+      <DependentUpon>Job_skills_Crud.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resumes.aspx.cs">
+      <DependentUpon>Resumes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resumes.aspx.designer.cs">
+      <DependentUpon>Resumes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Skills_Crud.aspx.cs">
       <DependentUpon>Skills_Crud.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
