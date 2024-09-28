@@ -84,12 +84,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Application_Crud.aspx" />
+    <Content Include="ApplyJob.aspx" />
     <Content Include="App_Data\DBJobPortal.mdf" />
     <Content Include="App_Data\DBJobPortal_log.ldf">
       <DependentUpon>DBJobPortal.mdf</DependentUpon>
     </Content>
     <Content Include="Companies_Crud.aspx" />
     <Content Include="HomePage.aspx" />
+    <Content Include="JobList.aspx" />
+    <Content Include="Jobs.aspx" />
+    <Content Include="Jobsdisplay.aspx" />
     <Content Include="Jobs_Crud.aspx" />
     <Content Include="Job_skills_Crud.aspx" />
     <Content Include="Login.aspx" />
@@ -109,6 +113,13 @@
     <Compile Include="Application_Crud.aspx.designer.cs">
       <DependentUpon>Application_Crud.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ApplyJob.aspx.cs">
+      <DependentUpon>ApplyJob.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ApplyJob.aspx.designer.cs">
+      <DependentUpon>ApplyJob.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Companies_Crud.aspx.cs">
       <DependentUpon>Companies_Crud.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -122,6 +133,27 @@
     </Compile>
     <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="JobList.aspx.cs">
+      <DependentUpon>JobList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="JobList.aspx.designer.cs">
+      <DependentUpon>JobList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobs.aspx.cs">
+      <DependentUpon>Jobs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobs.aspx.designer.cs">
+      <DependentUpon>Jobs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jobsdisplay.aspx.cs">
+      <DependentUpon>Jobsdisplay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Jobsdisplay.aspx.designer.cs">
+      <DependentUpon>Jobsdisplay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Jobs_Crud.aspx.cs">
       <DependentUpon>Jobs_Crud.aspx</DependentUpon>

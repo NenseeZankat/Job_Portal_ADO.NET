@@ -16,7 +16,6 @@
             background-color: #f5f5f5;
         }
 
-        /* Navbar */
         .navbar {
             background: linear-gradient(45deg, #0072ff, #00c6ff);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -32,7 +31,6 @@
             color: white !important;
         }
 
-        /* Hero Section */
         .hero-section {
             background: linear-gradient(135deg, #6dd5ed, #2193b0);
             height: 500px;
@@ -53,7 +51,6 @@
             font-size: 18px;
         }
 
-        /* Search Bar */
         .search-bar {
             margin-top: 30px;
         }
@@ -78,7 +75,6 @@
             padding: 60px 0;
         }
 
-        /* Job Categories */
         .job-categories h2 {
             margin-bottom: 30px;
             font-weight: bold;
@@ -102,7 +98,6 @@
             border-radius: 8px;
         }
 
-        /* Featured Jobs */
         .featured-jobs h2 {
             font-weight: bold;
             margin-bottom: 30px;
@@ -132,7 +127,6 @@
             padding: 10px 20px;
         }
 
-        /* Footer */
         .footer {
             background-color: #0072ff;
             color: white;
@@ -151,7 +145,7 @@
 <body>
     <form id="form1" runat="server">
         <!-- Navbar -->
-       <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <a class="navbar-brand" href="#">Job Portal</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -159,9 +153,8 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="HomePage.aspx">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Jobs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Post Job</a></li>
-                    <!-- Placeholder for login/logout links -->
+                    <li class="nav-item"><a class="nav-link" href="Jobs.aspx">Jobs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Jobs_Crud.aspx">Post Job</a></li>
                     <asp:PlaceHolder ID="LoginLogoutPlaceholder" runat="server">
                         <li class="nav-item"><a class="nav-link" href="/Login.aspx">Login</a></li>
                         <li class="nav-item"><a class="nav-link" href="/Register.aspx">Register</a></li>
@@ -194,38 +187,20 @@
         <div class="container job-categories">
             <h2 class="text-center">Job Categories</h2>
             <div class="row text-center">
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Technology</h5>
-                            <p class="card-text">200+ Jobs</p>
+                <asp:Repeater ID="CategoryRepeater" runat="server">
+                    <ItemTemplate>
+                        <div class="col-md-3">
+                            <a href="JobList.aspx?CategoryId=<%# Eval("CategoryId") %>" style="text-decoration: none;">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><%# Eval("CategoryName") %></h5>
+                                        <p class="card-text"><%# Eval("JobCount") %>+ Jobs</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Finance</h5>
-                            <p class="card-text">120+ Jobs</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Healthcare</h5>
-                            <p class="card-text">180+ Jobs</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Education</h5>
-                            <p class="card-text">95+ Jobs</p>
-                        </div>
-                    </div>
-                </div>
+                    </ItemTemplate>
+                </asp:Repeater>
             </div>
         </div>
 
@@ -233,33 +208,19 @@
         <div class="container featured-jobs">
             <h2 class="text-center">Featured Jobs</h2>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Software Developer</h5>
-                            <p class="card-text">ABC Tech - New York, NY</p>
-                            <a href="#" class="btn">View Job</a>
+                <asp:Repeater ID="FeaturedJobsRepeater" runat="server">
+                    <ItemTemplate>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title"><%# Eval("Title") %></h5>
+                                    <p class="card-text"><%# Eval("CompanyName") %> - <%# Eval("Location") %></p>
+                                    <a href="JobDetail.aspx?JobId=<%# Eval("JobId") %>" class="btn">View Job</a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Financial Analyst</h5>
-                            <p class="card-text">XYZ Finance - San Francisco, CA</p>
-                            <a href="#" class="btn">View Job</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Nurse Practitioner</h5>
-                            <p class="card-text">Healthcare Inc - Chicago, IL</p>
-                            <a href="#" class="btn">View Job</a>
-                        </div>
-                    </div>
-                </div>
+                    </ItemTemplate>
+                </asp:Repeater>
             </div>
         </div>
 
@@ -270,7 +231,7 @@
 
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </form>
 </body>
 </html>

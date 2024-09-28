@@ -3,68 +3,44 @@
   "WorkspaceRootPath": "E:\\Job portal ADO.NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\register.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\jobs_crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\jobs_crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\jobs_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\jobs_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|E:\\Job portal ADO.NET\\jobportal\\joblist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\joblist.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|E:\\Job portal ADO.NET\\jobportal\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\jobs.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\jobs.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|E:\\Job portal ADO.NET\\jobportal\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\register.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\homepage.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\jobs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\jobs.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\homepage.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\jobsdisplay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\jobsdisplay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\logout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\logout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|e:\\job portal ado.net\\jobportal\\companies_crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\companies_crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|E:\\Job portal ADO.NET\\jobportal\\resumes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\resumes.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|E:\\Job portal ADO.NET\\jobportal\\job_skills_crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\job_skills_crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|E:\\Job portal ADO.NET\\jobportal\\resumes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\resumes.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|E:\\Job portal ADO.NET\\jobportal\\jobs_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\jobs_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|E:\\Job portal ADO.NET\\jobportal\\application_crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\application_crud.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|E:\\Job portal ADO.NET\\jobportal\\user_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\user_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|E:\\Job portal ADO.NET\\jobportal\\application_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\application_crud.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|E:\\Job portal ADO.NET\\jobportal\\joblist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19CD38E7-0061-452E-8845-DF2B6E2413BD}|JobPortal\\JobPortal.csproj|solutionrelative:jobportal\\joblist.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,90 +50,8 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomePage.aspx.cs",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\HomePage.aspx.cs",
-              "RelativeDocumentMoniker": "JobPortal\\HomePage.aspx.cs",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\HomePage.aspx.cs",
-              "RelativeToolTip": "JobPortal\\HomePage.aspx.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAswBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T08:59:47.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LogOut.aspx.cs",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\LogOut.aspx.cs",
-              "RelativeDocumentMoniker": "JobPortal\\LogOut.aspx.cs",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\LogOut.aspx.cs",
-              "RelativeToolTip": "JobPortal\\LogOut.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T08:48:46.578Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "JobPortal\\Login.aspx.cs",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Login.aspx.cs",
-              "RelativeToolTip": "JobPortal\\Login.aspx.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAwwB8AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T08:41:08.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Login.aspx",
-              "RelativeDocumentMoniker": "JobPortal\\Login.aspx",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Login.aspx",
-              "RelativeToolTip": "JobPortal\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-16T08:37:35.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.aspx.cs",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Register.aspx.cs",
-              "RelativeDocumentMoniker": "JobPortal\\Register.aspx.cs",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Register.aspx.cs",
-              "RelativeToolTip": "JobPortal\\Register.aspx.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwEIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T08:34:01.747Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.aspx",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Register.aspx",
-              "RelativeDocumentMoniker": "JobPortal\\Register.aspx",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Register.aspx",
-              "RelativeToolTip": "JobPortal\\Register.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-16T08:33:45.903Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -173,119 +67,123 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LogOut.aspx",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\LogOut.aspx",
-              "RelativeDocumentMoniker": "JobPortal\\LogOut.aspx",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\LogOut.aspx",
-              "RelativeToolTip": "JobPortal\\LogOut.aspx",
+              "DocumentIndex": 0,
+              "Title": "Jobs_Crud.aspx",
+              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Jobs_Crud.aspx",
+              "RelativeDocumentMoniker": "JobPortal\\Jobs_Crud.aspx",
+              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Jobs_Crud.aspx",
+              "RelativeToolTip": "JobPortal\\Jobs_Crud.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-16T08:48:25.358Z",
+              "WhenOpened": "2024-09-25T05:42:21.357Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Companies_Crud.aspx",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Companies_Crud.aspx",
-              "RelativeDocumentMoniker": "JobPortal\\Companies_Crud.aspx",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Companies_Crud.aspx",
-              "RelativeToolTip": "JobPortal\\Companies_Crud.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-13T17:00:01.86Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Job_skills_Crud.aspx",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Job_skills_Crud.aspx",
-              "RelativeDocumentMoniker": "JobPortal\\Job_skills_Crud.aspx",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Job_skills_Crud.aspx",
-              "RelativeToolTip": "JobPortal\\Job_skills_Crud.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-13T17:36:55.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Resumes.aspx",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Resumes.aspx",
-              "RelativeDocumentMoniker": "JobPortal\\Resumes.aspx",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Resumes.aspx",
-              "RelativeToolTip": "JobPortal\\Resumes.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-13T17:44:19.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "Jobs_Crud.aspx.cs",
               "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Jobs_Crud.aspx.cs",
               "RelativeDocumentMoniker": "JobPortal\\Jobs_Crud.aspx.cs",
               "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Jobs_Crud.aspx.cs",
               "RelativeToolTip": "JobPortal\\Jobs_Crud.aspx.cs",
-              "ViewState": "AgIAAOAAAAAAAAAAAAAUwPgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAwwPgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T17:41:06.359Z",
+              "WhenOpened": "2024-09-25T05:42:47.006Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Resumes.aspx.cs",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Resumes.aspx.cs",
-              "RelativeDocumentMoniker": "JobPortal\\Resumes.aspx.cs",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Resumes.aspx.cs",
-              "RelativeToolTip": "JobPortal\\Resumes.aspx.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAUwHgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Jobsdisplay.aspx.cs",
+              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Jobsdisplay.aspx.cs",
+              "RelativeDocumentMoniker": "JobPortal\\Jobsdisplay.aspx.cs",
+              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Jobsdisplay.aspx.cs",
+              "RelativeToolTip": "JobPortal\\Jobsdisplay.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-13T17:44:29.903Z",
+              "WhenOpened": "2024-09-24T17:22:35.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User_Crud.aspx.cs",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\User_Crud.aspx.cs",
-              "RelativeDocumentMoniker": "JobPortal\\User_Crud.aspx.cs",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\User_Crud.aspx.cs",
-              "RelativeToolTip": "JobPortal\\User_Crud.aspx.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAswKYAAABCAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "JobList.aspx.cs",
+              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\JobList.aspx.cs",
+              "RelativeDocumentMoniker": "JobPortal\\JobList.aspx.cs",
+              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\JobList.aspx.cs",
+              "RelativeToolTip": "JobPortal\\JobList.aspx.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:31:17.201Z",
+              "WhenOpened": "2024-09-24T16:27:28.27Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Application_Crud.aspx",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Application_Crud.aspx",
-              "RelativeDocumentMoniker": "JobPortal\\Application_Crud.aspx",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Application_Crud.aspx",
-              "RelativeToolTip": "JobPortal\\Application_Crud.aspx",
+              "DocumentIndex": 2,
+              "Title": "JobList.aspx",
+              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\JobList.aspx",
+              "RelativeDocumentMoniker": "JobPortal\\JobList.aspx",
+              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\JobList.aspx",
+              "RelativeToolTip": "JobPortal\\JobList.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-08-29T15:17:45.218Z",
+              "WhenOpened": "2024-09-24T16:27:08.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Application_Crud.aspx.cs",
-              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Application_Crud.aspx.cs",
-              "RelativeDocumentMoniker": "JobPortal\\Application_Crud.aspx.cs",
-              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Application_Crud.aspx.cs",
-              "RelativeToolTip": "JobPortal\\Application_Crud.aspx.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAIwGQAAABYAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Register.aspx",
+              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Register.aspx",
+              "RelativeDocumentMoniker": "JobPortal\\Register.aspx",
+              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Register.aspx",
+              "RelativeToolTip": "JobPortal\\Register.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-25T05:27:57.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Jobs.aspx",
+              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Jobs.aspx",
+              "RelativeDocumentMoniker": "JobPortal\\Jobs.aspx",
+              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Jobs.aspx",
+              "RelativeToolTip": "JobPortal\\Jobs.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-25T05:30:05.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Jobs.aspx.cs",
+              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\Jobs.aspx.cs",
+              "RelativeDocumentMoniker": "JobPortal\\Jobs.aspx.cs",
+              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\Jobs.aspx.cs",
+              "RelativeToolTip": "JobPortal\\Jobs.aspx.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAIwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-29T15:17:40.69Z",
+              "WhenOpened": "2024-09-25T05:30:20.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomePage.aspx.cs",
+              "DocumentMoniker": "E:\\Job portal ADO.NET\\JobPortal\\HomePage.aspx.cs",
+              "RelativeDocumentMoniker": "JobPortal\\HomePage.aspx.cs",
+              "ToolTip": "E:\\Job portal ADO.NET\\JobPortal\\HomePage.aspx.cs",
+              "RelativeToolTip": "JobPortal\\HomePage.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T08:59:47.015Z",
               "EditorCaption": ""
             }
           ]

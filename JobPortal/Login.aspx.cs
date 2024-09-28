@@ -46,7 +46,7 @@ namespace JobPortal
                 {
                     conn.Open();
                     // Fetch the user's stored hash and role from the database
-                    string sql = "SELECT PasswordHash, Role FROM Users WHERE Username = @Username";
+                    string sql = "SELECT UserId,PasswordHash, Role FROM Users WHERE Username = @Username";
                     using (SqlCommand cmd = new SqlCommand(sql, conn))
                     {
                         cmd.Parameters.AddWithValue("@Username", username);
@@ -55,6 +55,7 @@ namespace JobPortal
                         {
                             string storedHash = reader["PasswordHash"].ToString();
                             string role = reader["Role"].ToString();
+                            string Userid = reader["UserId"].ToString();
 
                             // Verify the password using BCrypt
                             if (BCrypt.Net.BCrypt.Verify(password, storedHash))
@@ -62,6 +63,7 @@ namespace JobPortal
                                 // Authentication successful, set session variables
                                 Session["Username"] = username;
                                 Session["Role"] = role;
+                                Session["Userid"] = Userid;
 
                                 // Optionally: redirect the user based on their role
                                 if (role == "Admin")

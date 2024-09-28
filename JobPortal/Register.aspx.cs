@@ -64,11 +64,27 @@ namespace JobPortal
                         cmd.Parameters.AddWithValue("@Location", location);
 
                         cmd.ExecuteNonQuery();
+
+
+                    }
+                    sql = "SELECT UserId,PasswordHash, Role FROM Users WHERE Username = @Username";
+                    using (SqlCommand cmd = new SqlCommand(sql, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Username", username);
+                        SqlDataReader reader = cmd.ExecuteReader();
+                        if (reader.Read())
+                        {
+                            string storedHash = reader["PasswordHash"].ToString();
+                            string Role = reader["Role"].ToString();
+                            string Userid = reader["UserId"].ToString();
+                            Session["Username"] = username;
+                            Session["Role"] = Role;
+                            Session["Userid"] = Userid;
+                        }
                     }
                 }
 
-                // Store the username or email in session
-                Session["Username"] = username;
+             
 
                 // Redirect to the Login page
                 Response.Redirect("HomePage.aspx");
