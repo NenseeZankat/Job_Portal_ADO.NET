@@ -217,7 +217,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title"><%# Eval("Title") %></h5>
                                     <p class="card-text"><%# Eval("CompanyName") %> - <%# Eval("Location") %></p>
-                                    <a href="JobDetail.aspx?JobId=<%# Eval("JobId") %>" class="btn">View Job</a>
+                                    <a href="ApplyJob.aspx?JobId=<%# Eval("JobId") %>" class="btn">View Job</a>
                                 </div>
                             </div>
                         </div>
