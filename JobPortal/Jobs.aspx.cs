@@ -18,6 +18,34 @@ namespace JobPortal
             if (!IsPostBack)
             {
                 LoadJobs();
+                if (Session["Username"] != null)
+                {
+                    // User is logged in
+                    LoginLogoutPlaceholder.Controls.Clear();
+                    LoginLogoutPlaceholder.Controls.Add(new LiteralControl(
+                        "<li class='nav-item'><a class='nav-link' href='/LogOut.aspx'>Logout</a></li>"
+                    ));
+                }
+                else
+                {
+                    // User is not logged in
+                    LoginLogoutPlaceholder.Controls.Clear();
+                    LoginLogoutPlaceholder.Controls.Add(new LiteralControl(
+                        "<li class='nav-item'><a class='nav-link' href='/Login.aspx'>Login</a></li>" +
+                        "<li class='nav-item'><a class='nav-link' href='/Register.aspx'>Register</a></li>"
+                    ));
+                }
+                if (Session["Role"] != null && Session["Role"].ToString() == "job_seeker")
+                {
+                    postJobPlaceHolder.Controls.Clear();
+                    postJobPlaceHolder.Controls.Add(new LiteralControl(
+                        "<li class=\"nav-item\"><a class=\"nav-link\" href=\"Jobs_Crud.aspx\">Post Job</a></li>"
+                        ));
+                }
+                else
+                {
+                    postJobPlaceHolder.Controls.Clear();
+                }
             }
         }
 

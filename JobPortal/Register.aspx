@@ -85,8 +85,9 @@
                  <ul class="navbar-nav ml-auto">
                      <li class="nav-item"><a class="nav-link" href="HomePage.aspx">Home</a></li>
                      <li class="nav-item"><a class="nav-link" href="Jobs.aspx">Jobs</a></li>
-                     <li class="nav-item"><a class="nav-link" href="Jobs_Crud.aspx">Post Job</a></li>
-                     <!-- Placeholder for login/logout links -->
+                     <asp:PlaceHolder ID="postJobPlaceHolder" runat="server">
+                        <li class="nav-item"><a class="nav-link" href="Jobs_Crud.aspx">Post Job</a></li>
+                     </asp:PlaceHolder>
                      <asp:PlaceHolder ID="LoginLogoutPlaceholder" runat="server">
                          <li class="nav-item"><a class="nav-link" href="/Login.aspx">Login</a></li>
                          <li class="nav-item"><a class="nav-link" href="/Register.aspx">Register</a></li>

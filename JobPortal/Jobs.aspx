@@ -26,12 +26,15 @@
 
         .job-listing {
             width: 100%;
-/*            border-spacing: 20px;*/
+            border-collapse: collapse;
+        }
+
+        .job-listing table, .job-listing td, .job-listing th {
+            border: none !important;
         }
 
         .job-card {
-/*            border: 1px solid #e0e0e0;*/
-/*            border-radius: 10px;*/
+            border: none !important;
             padding: 20px;
             margin: 20px;
             background-color: #ffffff;
@@ -65,7 +68,6 @@
             background-color: #007bff;
             color: white;
             text-decoration: none;
-/*            border-radius: 5px;*/
             transition: background-color 0.3s ease;
             align-self: flex-start;
             margin-top: 20px;
@@ -100,45 +102,64 @@
             }
         }
 
+        /* Navbar Styling */
         .navbar {
             background: linear-gradient(45deg, #0072ff, #00c6ff);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            height: 60px; /* Set the height to match HomePage */
         }
 
         .navbar-brand {
             color: white !important;
             font-weight: bold;
             letter-spacing: 1px;
+            line-height: 60px; /* Ensure the brand name is centered vertically */
         }
 
         .navbar-nav a {
             color: white !important;
+            line-height: 60px; /* Center the links vertically */
         }
+
+        .container-fluid {
+            padding: 0 !important;
+        }
+
+        /* Optional: Add vertical centering for navbar elements */
+        .navbar-nav {
+            align-items: center;
+        }
+
     </style>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a class="navbar-brand" href="#">Job Portal</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="HomePage.aspx">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Jobs.aspx">Jobs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Jobs_Crud.aspx">Post Job</a></li>
-                    <asp:PlaceHolder ID="LoginLogoutPlaceholder" runat="server">
-                        <li class="nav-item"><a class="nav-link" href="/Login.aspx">Login</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/Register.aspx">Register</a></li>
-                    </asp:PlaceHolder>
-                </ul>
-            </div>
-        </nav>
 
+    <!-- Full Width Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark container-fluid">
+        <a class="navbar-brand" href="#">Job Portal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto d-flex align-items-center"> <!-- Added d-flex and align-items-center for vertical alignment -->
+                <li class="nav-item"><a class="nav-link" href="HomePage.aspx">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="Jobs.aspx">Jobs</a></li>
+                <asp:PlaceHolder ID="postJobPlaceHolder" runat="server">
+                    <li class="nav-item"><a class="nav-link" href="Jobs_Crud.aspx">Post Job</a></li>
+                </asp:PlaceHolder>
+                <asp:PlaceHolder ID="LoginLogoutPlaceholder" runat="server">
+                    <li class="nav-item"><a class="nav-link" href="/Login.aspx">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/Register.aspx">Register</a></li>
+                </asp:PlaceHolder>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Content Wrapper with restricted width -->
+    <form id="form1" runat="server">
         <!-- Job Listings -->
-        <asp:GridView ID="GridViewJobs" runat="server" AutoGenerateColumns="False" CssClass="job-listing">
+        <asp:GridView ID="GridViewJobs" runat="server" AutoGenerateColumns="False" CssClass="job-listing" GridLines="None" CellSpacing="0">
             <Columns>
                 <asp:TemplateField>
                     <ItemTemplate>

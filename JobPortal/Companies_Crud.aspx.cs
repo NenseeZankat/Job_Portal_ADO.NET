@@ -22,7 +22,7 @@ namespace JobPortal
             }
         }
 
-       
+
         private void BindGrid()
         {
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -33,14 +33,14 @@ namespace JobPortal
                     SqlDataAdapter da = new SqlDataAdapter(cmd);
                     DataTable dt = new DataTable();
                     da.Fill(dt);
-                    con.Close();    
+                    con.Close();
                     gvCompanies.DataSource = dt;
                     gvCompanies.DataBind();
                 }
             }
         }
 
-       
+
         protected void btnAdd_Click(object sender, EventArgs e)
         {
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -56,7 +56,7 @@ namespace JobPortal
 
                     con.Open();
                     cmd.ExecuteNonQuery();
-                    con.Close() ;
+                    con.Close();
                     lblMessage.Text = "Company added successfully!";
                     BindGrid();
                     ClearForm();
@@ -64,7 +64,7 @@ namespace JobPortal
             }
         }
 
-      
+
         protected void btnUpdate_Click(object sender, EventArgs e)
         {
             if (hdnCompanyId.Value != "")
@@ -83,7 +83,7 @@ namespace JobPortal
 
                         con.Open();
                         cmd.ExecuteNonQuery();
-                    
+
                         lblMessage.Text = "Company updated successfully!";
                         BindGrid();
                         ClearForm();
@@ -92,7 +92,7 @@ namespace JobPortal
             }
         }
 
-       
+
         protected void btnDelete_Click(object sender, EventArgs e)
         {
             if (hdnCompanyId.Value != "")
@@ -113,7 +113,7 @@ namespace JobPortal
             }
         }
 
-       
+
         protected void gvCompanies_SelectedIndexChanged(object sender, EventArgs e)
         {
             GridViewRow row = gvCompanies.SelectedRow;
@@ -126,7 +126,7 @@ namespace JobPortal
             txtLogoUrl.Text = row.Cells[6].Text;
         }
 
-        
+
         private void ClearForm()
         {
             hdnCompanyId.Value = "";

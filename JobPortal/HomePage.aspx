@@ -154,7 +154,9 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="HomePage.aspx">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="Jobs.aspx">Jobs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Jobs_Crud.aspx">Post Job</a></li>
+                    <asp:PlaceHolder ID="postJobPlaceHolder" runat="server">
+                        <li class="nav-item"><a class="nav-link" href="Jobs_Crud.aspx">Post Job</a></li>
+                    </asp:PlaceHolder>
                     <asp:PlaceHolder ID="LoginLogoutPlaceholder" runat="server">
                         <li class="nav-item"><a class="nav-link" href="/Login.aspx">Login</a></li>
                         <li class="nav-item"><a class="nav-link" href="/Register.aspx">Register</a></li>
@@ -204,6 +206,7 @@
             </div>
         </div>
 
+
         <!-- Featured Jobs -->
         <div class="container featured-jobs">
             <h2 class="text-center">Featured Jobs</h2>
@@ -215,7 +218,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title"><%# Eval("Title") %></h5>
                                     <p class="card-text"><%# Eval("CompanyName") %> - <%# Eval("Location") %></p>
-                                    <a href="JobDetail.aspx?JobId=<%# Eval("JobId") %>" class="btn">View Job</a>
+                                    <a href="ApplyJob.aspx?JobId=<%# Eval("JobId") %>" class="btn">Apply</a>
                                 </div>
                             </div>
                         </div>

@@ -3,6 +3,7 @@ using System.Data.SqlClient;
 using System.Configuration;
 using System.IO;
 using System.Web.Configuration;
+using System.Web.UI;
 
 namespace YourNamespace
 {
@@ -12,13 +13,55 @@ namespace YourNamespace
         {
             if (!IsPostBack)
             {
+                // Check if UserId is null or not present in the session
+                if (Session["UserId"] == null)
+                {
+                    // Popup message
+                    string script = "alert('Error: You must be logged in to apply for a job. Redirecting to homepage...');" +
+                                    "window.location ='/HomePage.aspx';";
+
+                    // Register the script to run on the client-side
+                    ClientScript.RegisterStartupScript(this.GetType(), "Redirect", script, true);
+                    return; // Exit the method if UserId is null
+                }
+
                 // Get JobId from URL query string
                 string jobId = Request.QueryString["JobId"];
-                //lblJobId.Text = "Job ID: " + jobId;
+                hiddenJobId.Value = jobId; // Store the JobId in hidden field
 
                 // Get UserId from session
                 int userId = Convert.ToInt32(Session["UserId"]);
-                //lblUserId.Text = "User ID: " + userId;
+                hiddenUserId.Value = userId.ToString(); // Store the UserId in hidden field
+
+                if (Session["Username"] != null)
+                {
+                    // User is logged in
+                    LoginLogoutPlaceholder.Controls.Clear();
+                    LoginLogoutPlaceholder.Controls.Add(new LiteralControl(
+                        "<li class='nav-item'><a class='nav-link' href='/LogOut.aspx'>Logout</a></li>"
+                    ));
+                }
+                else
+                {
+                    // User is not logged in
+                    LoginLogoutPlaceholder.Controls.Clear();
+                    LoginLogoutPlaceholder.Controls.Add(new LiteralControl(
+                        "<li class='nav-item'><a class='nav-link' href='/Login.aspx'>Login</a></li>" +
+                        "<li class='nav-item'><a class='nav-link' href='/Register.aspx'>Register</a></li>"
+                    ));
+                }
+
+                if (Session["Role"] != null && Session["Role"].ToString() == "job_seeker")
+                {
+                    postJobPlaceHolder.Controls.Clear();
+                    postJobPlaceHolder.Controls.Add(new LiteralControl(
+                        "<li class=\"nav-item\"><a class=\"nav-link\" href=\"Jobs_Crud.aspx\">Post Job</a></li>"
+                    ));
+                }
+                else
+                {
+                    postJobPlaceHolder.Controls.Clear();
+                }
             }
         }
 

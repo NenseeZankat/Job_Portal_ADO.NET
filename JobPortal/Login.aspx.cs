@@ -30,6 +30,17 @@ namespace JobPortal
                     "<li class='nav-item'><a class='nav-link' href='/Register.aspx'>Register</a></li>"
                 ));
             }
+            if (Session["Role"] != null && Session["Role"].ToString() == "job_seeker")
+            {
+                postJobPlaceHolder.Controls.Clear();
+                postJobPlaceHolder.Controls.Add(new LiteralControl(
+                    "<li class=\"nav-item\"><a class=\"nav-link\" href=\"Jobs_Crud.aspx\">Post Job</a></li>"
+                    ));
+            }
+            else
+            {
+                postJobPlaceHolder.Controls.Clear();
+            }
         }
 
         protected void LoginButton_Click(object sender, EventArgs e)

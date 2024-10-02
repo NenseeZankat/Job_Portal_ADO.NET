@@ -77,7 +77,13 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="HomePage.aspx">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="Jobs.aspx">Jobs</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Jobs_Crud.aspx">Post Job</a></li>
+                    
+                    <!-- Post Job PlaceHolder for Employer -->
+                    <asp:PlaceHolder ID="postJobPlaceHolder" runat="server">
+                        <li class="nav-item"><a class="nav-link" href="Jobs_Crud.aspx">Post Job</a></li>
+                    </asp:PlaceHolder>
+                    
+                    <!-- Login/Logout PlaceHolder -->
                     <asp:PlaceHolder ID="LoginLogoutPlaceholder" runat="server">
                         <li class="nav-item"><a class="nav-link" href="/Login.aspx">Login</a></li>
                         <li class="nav-item"><a class="nav-link" href="/Register.aspx">Register</a></li>
@@ -96,7 +102,7 @@
                             <h4><%# Eval("Title") %></h4>
                             <p>Location: <%# Eval("Location") %></p>
                             <p>Company: <%# Eval("CompanyName") %></p>
-                            <a href="JobDetail.aspx?JobId=<%# Eval("JobId") %>" class="btn btn-primary">View Job</a>
+                            <a href="ApplyJob.aspx?JobId=<%# Eval("JobId") %>" class="btn btn-primary">Apply</a>
                         </div>
                     </ItemTemplate>
                 </asp:Repeater>
