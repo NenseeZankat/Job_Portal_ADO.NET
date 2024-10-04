@@ -17,8 +17,8 @@ namespace YourNamespace
                 if (Session["UserId"] == null)
                 {
                     // Popup message
-                    string script = "alert('Error: You must be logged in to apply for a job. Redirecting to homepage...');" +
-                                    "window.location ='/HomePage.aspx';";
+                    string script = "alert('Error: You must be logged in to apply for a job. Redirecting to Login...');" +
+                                    "window.location ='/Login.aspx';";
 
                     // Register the script to run on the client-side
                     ClientScript.RegisterStartupScript(this.GetType(), "Redirect", script, true);
@@ -84,11 +84,16 @@ namespace YourNamespace
                 {
                     lblMessage.Text = "Error during preview: " + ex.Message;
                 }
+                finally
+                {
+                    //Response.Redirect("/ApplyJob.aspx");
+                }
             }
             else
             {
                 lblMessage.Text = "Please upload a PDF resume for preview.";
             }
+            //Response.Redirect("/ApplyJob.aspx");
         }
 
         // Save uploaded resume file to server for preview and return file path
@@ -127,16 +132,20 @@ namespace YourNamespace
                     AddApplicationToDatabase(resumeId);
 
                     lblMessage.Text = "Application submitted successfully!";
+                    Response.Redirect("/HomePage.aspx");
                 }
                 catch (Exception ex)
                 {
                     lblMessage.Text = "Error: " + ex.Message;
+                    //Response.Redirect("/ApplyJob.aspx");
                 }
             }
             else
             {
                 lblMessage.Text = "Please upload a PDF resume.";
             }
+            //Response.Redirect("/ApplyJob.aspx");
+
         }
 
         // Save uploaded resume file to server permanently and return file path

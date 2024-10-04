@@ -346,7 +346,7 @@ namespace JobPortal
                 if (rowsAffected > 0)
                 {
                     // Job deleted successfully, redirect to home page
-                    Response.Redirect("/HomePage.aspx");
+                    Response.Redirect("/Login.aspx");
                 }
                 else
                 {
